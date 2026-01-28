@@ -4,7 +4,7 @@
 
 ## Topics Covered
 - Users and Groups Introduction
-- Programmatic Access Concepts
+- User Types (UID Ranges)
 - `/etc/passwd`, `/etc/shadow`, `/etc/group`
 - Managing User Accounts (`useradd`)
 - Managing Group Accounts (`groupadd`)
@@ -12,13 +12,34 @@
 
 ---
 
-## 1. Introduction: Why Users and Groups?
+## 1. What is a User?
+In Linux, a **User** is an entity that can execute commands and own files. Every process running on the system is owned by a specific user. The OS identifies users not by their username (e.g., "john"), but by a **User ID (UID)**.
+
+### User Types
+Linux classifies users into three main categories based on their UID.
+
+| User Type | UID Range (RHEL/CentOS) | Description |
+| :--- | :--- | :--- |
+| **Root (Superuser)** | `0` | The administrator with unlimited privileges. Can modify any file and stop any process. |
+| **System Users** | `1` - `999` | Used by services (Apache, MySQL, SSH) to run background processes securely. They usually have interpreted login shells (e.g., `/sbin/nologin`). |
+| **Regular Users** | `1000` + | Human users created by the administrator. They have restricted access and own their home directories. |
+
+## 2. What is a Group?
+A **Group** is a logical collection of users. Groups are used to organize users and manage permissions efficiently. Instead of assigning permissions to every individual user, you assign permissions to a group and add users to that group.
+
+- **Group ID (GID):** Like the UID, groups are identified by a unique number.
+- **Primary Group:** Every user has exactly one primary group (usually same name as username). Files created by the user belong to this group.
+- **Secondary (Supplementary) Groups:** A user can belong to multiple secondary groups (e.g., `wheel`, `docker`, `developers`).
+
+---
+
+## 3. Introduction: Why Users and Groups?
 Usually, you will have a Linux server lying around and at one moment you’ll want to add access to another person so they can read/update/upload files to a specific directory. You wouldn’t want to allow that user to touch anything outside of `/home/my-web-server/` directory or execute some system commands on the server itself. That’s where roles, permissions, and groups come in.
 
 ### Programmatic Access
 In cases when you need programmatic access to your server, like a CI/CD runner, it’s also a best practice to have **minimal access** for that user, allowing it to do only the things it needs, nothing more. If the credentials leak, there is a permission limitation as to what the user can do.
 
-## 2. Managing Users
+## 4. Managing Users
 When creating users they must always be assigned to a primary group. If you don’t assign them a group, a group will be created for them with the same name.
 
 **Basic Commands:**
@@ -63,7 +84,7 @@ Retype new password:
 passwd: all authentication tokens updated successfully.
 ```
 
-## 3. Managing Groups
+## 5. Managing Groups
 Sometimes it’s easier to manage multiple users with same permissions through a group as all users assigned to that group will share its permissions.
 
 **Group Commands:**
@@ -91,7 +112,7 @@ gpasswd --delete user1 standard1
 groupdel standard1
 ```
 
-## 4. Viewing Users
+## 6. Viewing Users
 To see all users in the system you can read the passwd file:
 ```bash
 cat /etc/passwd
