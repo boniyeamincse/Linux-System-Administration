@@ -1,3 +1,5 @@
+[< Back to Course Outline](../README.md) | [Lab Instructions](./Lab_Instructions.md) | [Solutions](./Solutions/)
+
 # Module 03: Linux Installation & Basic Configure
 
 ## Topics Covered
@@ -18,3 +20,4 @@
    - `/` (Root) - Remaining space - ext4/xfs
 4. **Network**: Maintain default or set Hostname.
 5. Create User: Set username and strong password. Make sure to check "Make this user administrator" (sudo).
+

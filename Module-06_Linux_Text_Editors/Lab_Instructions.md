@@ -1,3 +1,5 @@
+[< Back to Module Notes](./README.md) | [< Back to Course Outline](../README.md)
+
 # Lab 06: Editing with Vim
 
 ## Objective
@@ -18,3 +20,4 @@ Master the basics of the Vi/Vim editor.
 7.  Undo the deletion (`u`).
 8.  Go to the end of the file (`G`) and add a new line: "The End".
 9.  Save and Quit (`:wq`).
+

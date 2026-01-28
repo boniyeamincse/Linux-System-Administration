@@ -1,3 +1,5 @@
+[< Back to Course Outline](../README.md) | [Lab Instructions](./Lab_Instructions.md) | [Solutions](./Solutions/)
+
 # Module 11: Linux Network Management (IPv4)
 
 ## Topics Covered
@@ -12,3 +14,4 @@
 - `nmcli connection show`: Show connections.
 - `nmcli con add type ethernet ifname eth0 ...`: Add connection.
 - `nmcli con mod "conn-name" ipv4.addresses ...`: Modify connection.
+

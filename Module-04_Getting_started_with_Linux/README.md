@@ -1,3 +1,5 @@
+[< Back to Course Outline](../README.md) | [Lab Instructions](./Lab_Instructions.md) | [Solutions](./Solutions/)
+
 # Module 04: Getting started with Linux
 
 ## Topics Covered
@@ -18,3 +20,4 @@
 | `mkdir dir` | Make Directory |
 | `cp src dest` | Copy file |
 | `rm file` | Remove file |
+

@@ -1,3 +1,5 @@
+[< Back to Module Notes](./README.md) | [< Back to Course Outline](../README.md)
+
 # Lab 10: Partitions and Mounts
 
 ## Objective
@@ -12,3 +14,4 @@ Add storage to your system and make it usable.
 5.  Mount the new partition to `/mnt/storage`.
 6.  Verify it is mounted.
 7.  Add an entry to `/etc/fstab` so it mounts automatically on reboot.
+

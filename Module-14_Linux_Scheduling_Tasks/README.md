@@ -1,3 +1,5 @@
+[< Back to Course Outline](../README.md) | [Lab Instructions](./Lab_Instructions.md) | [Solutions](./Solutions/)
+
 # Module 14: Linux Scheduling Tasks
 
 ## Topics Covered
@@ -13,3 +15,4 @@
 - Day of Month (1-31)
 - Month (1-12)
 - Day of Week (0-7)
+

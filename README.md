@@ -35,19 +35,19 @@ By the end of this course, students will be able to:
 
 ## Course Outline
 
-- **Module 01:** Introduction to UNIX & LINUX
-- **Module 02:** Preparing Linux Home Lab Setup
-- **Module 03:** Linux Installation & Basic Configure
-- **Module 04:** Getting started with Linux
-- **Module 05:** Linux Text Processing Tools
-- **Module 06:** Linux Text Editors
-- **Module 07:** User and Group Administration
-- **Module 08:** Linux File Permissions and ACL
-- **Module 09:** Linux Boot, Process and Services
-- **Module 10:** Linux File Systems Management
-- **Module 11:** Linux Network Management (IPv4)
-- **Module 12:** Linux Package Management System
-- **Module 13:** Configuring OpenSSH Service
-- **Module 14:** Linux Scheduling Tasks
-- **Module 15:** Linux Backup, Archive, Log Files
-- **Module 16:** Managing Linux Security
+- [**Module 01:** Introduction to UNIX & LINUX](./Module-01_Introduction_to_UNIX_Linux/README.md)
+- [**Module 02:** Preparing Linux Home Lab Setup](./Module-02_Preparing_Linux_Home_Lab_Setup/README.md)
+- [**Module 03:** Linux Installation & Basic Configure](./Module-03_Linux_Installation_Basic_Configure/README.md)
+- [**Module 04:** Getting started with Linux](./Module-04_Getting_started_with_Linux/README.md)
+- [**Module 05:** Linux Text Processing Tools](./Module-05_Linux_Text_Processing_Tools/README.md)
+- [**Module 06:** Linux Text Editors](./Module-06_Linux_Text_Editors/README.md)
+- [**Module 07:** User and Group Administration](./Module-07_User_and_Group_Administration/README.md)
+- [**Module 08:** Linux File Permissions and ACL](./Module-08_Linux_File_Permissions_and_ACL/README.md)
+- [**Module 09:** Linux Boot, Process and Services](./Module-09_Linux_Boot_Process_and_Services/README.md)
+- [**Module 10:** Linux File Systems Management](./Module-10_Linux_File_Systems_Management/README.md)
+- [**Module 11:** Linux Network Management (IPv4)](./Module-11_Linux_Network_Management_IPv4/README.md)
+- [**Module 12:** Linux Package Management System](./Module-12_Linux_Package_Management_System/README.md)
+- [**Module 13:** Configuring OpenSSH Service](./Module-13_Configuring_OpenSSH_Service/README.md)
+- [**Module 14:** Linux Scheduling Tasks](./Module-14_Linux_Scheduling_Tasks/README.md)
+- [**Module 15:** Linux Backup, Archive, Log Files](./Module-15_Linux_Backup_Archive_Log_Files/README.md)
+- [**Module 16:** Managing Linux Security](./Module-16_Managing_Linux_Security/README.md)

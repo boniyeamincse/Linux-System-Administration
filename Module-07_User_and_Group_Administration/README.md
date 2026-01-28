@@ -1,3 +1,5 @@
+[< Back to Course Outline](../README.md) | [Lab Instructions](./Lab_Instructions.md) | [Solutions](./Solutions/)
+
 # Module 07: User and Group Administration
 
 ## Topics Covered
@@ -14,3 +16,4 @@
 - `passwd username`
 - `usermod -aG groupname username` (Add to supplementary group)
 - `id username` (Check info)
+

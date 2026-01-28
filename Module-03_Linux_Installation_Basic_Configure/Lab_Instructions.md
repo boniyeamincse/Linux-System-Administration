@@ -1,3 +1,5 @@
+[< Back to Module Notes](./README.md) | [< Back to Course Outline](../README.md)
+
 # Lab 03: Installing Linux
 
 ## Scenario
@@ -22,3 +24,4 @@ Install a fresh copy of Linux on your virtual machine.
 1.  Open Terminal.
 2.  Run `df -h` to check partitions.
 3.  Run `ping google.com` to check network.
+

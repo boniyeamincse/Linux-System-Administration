@@ -1,3 +1,5 @@
+[< Back to Course Outline](../README.md) | [Lab Instructions](./Lab_Instructions.md) | [Solutions](./Solutions/)
+
 # Module 13: Configuring OpenSSH Service
 
 ## Topics Covered
@@ -13,3 +15,4 @@ File: `/etc/ssh/sshd_config`
 - `PasswordAuthentication no`: Forces key-based auth.
 - `Port 2222`: Changes default port.
 - Restart service: `systemctl restart sshd`
+

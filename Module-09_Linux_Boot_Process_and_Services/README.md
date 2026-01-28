@@ -1,3 +1,5 @@
+[< Back to Course Outline](../README.md) | [Lab Instructions](./Lab_Instructions.md) | [Solutions](./Solutions/)
+
 # Module 09: Linux Boot, Process, and Services
 
 ## Topics Covered
@@ -11,3 +13,4 @@
 - `systemctl stop ServiceName`
 - `systemctl enable ServiceName` (Start at boot)
 - `systemctl status ServiceName`
+

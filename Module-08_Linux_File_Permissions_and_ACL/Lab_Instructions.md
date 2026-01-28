@@ -1,3 +1,5 @@
+[< Back to Module Notes](./README.md) | [< Back to Course Outline](../README.md)
+
 # Lab 08: Permissions and ACLs
 
 ## Objective
@@ -10,3 +12,4 @@ Secure files and use advanced permissions for collaboration.
 4.  Set the **SGID** bit on `/data/project` so new files inherit the `sales` group.
 5.  Create a file `/data/project/confidential.txt`.
 6.  Use ACL (`setfacl`) to give read-only access to user `john` on this file, specifically (even if he wasn't in the group).
+

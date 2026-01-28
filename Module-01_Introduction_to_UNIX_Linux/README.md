@@ -1,3 +1,5 @@
+[< Back to Course Outline](../README.md) | [Lab Instructions](./Lab_Instructions.md) | [Solutions](./Solutions/)
+
 # Lab: Identifying Linux Environment
 
 ## Objective
@@ -37,3 +39,4 @@ Unix is a powerful, multitasking, multi-user computer operating system that was 
 - **Kernel:** The core of the OS that manages hardware and resources.
 - **Shell:** The command-line interface that allows users to interact with the kernel.
 - **Distributions (Distros):** Complete OS packages including kernel, shell, and applications (e.g., Ubuntu, RHEL, CentOS).
+

@@ -1,3 +1,5 @@
+[< Back to Course Outline](../README.md) | [Lab Instructions](./Lab_Instructions.md) | [Solutions](./Solutions/)
+
 # Module 02: Preparing Linux Home Lab Setup
 
 ## Topics Covered
@@ -18,3 +20,4 @@ In this module, you will prepare your virtualization environment.
 - **ISO:** Ubuntu 22.04 LTS or Rocky Linux 9 / RHEL 9.
 - **RAM:** Minimum 4GB dedicated to VM (8GB+ System Total recommended).
 - **Disk:** 20GB+ free space.
+

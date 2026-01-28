@@ -1,3 +1,5 @@
+[< Back to Module Notes](./README.md) | [< Back to Course Outline](../README.md)
+
 # Lab 02: Virtual Environment Setup
 
 ## Scenario
@@ -18,3 +20,4 @@ You need to set up a safe environment to practice big changes without breaking y
 ## Verification
 - You should see the VM in your inventory list.
 - Powering on the VM should boot into the Installation menu.
+

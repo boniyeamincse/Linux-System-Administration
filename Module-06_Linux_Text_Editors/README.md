@@ -1,3 +1,5 @@
+[< Back to Course Outline](../README.md) | [Lab Instructions](./Lab_Instructions.md) | [Solutions](./Solutions/)
+
 # Module 06: Linux Text Editors
 
 ## Topics Covered
@@ -17,3 +19,4 @@
 - `dd`: Delete line
 - `u`: Undo
 - `/pattern`: Search for pattern
+

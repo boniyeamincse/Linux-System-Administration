@@ -1,3 +1,5 @@
+[< Back to Module Notes](./README.md) | [< Back to Course Outline](../README.md)
+
 # Lab 11: Networking Configuration
 
 ## Objective
@@ -13,3 +15,4 @@ Configure a static IP address and hostname.
     - DNS: 8.8.8.8
 5.  Bring up the new connection.
 6.  Verify the new IP.
+

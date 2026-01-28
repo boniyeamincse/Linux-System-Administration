@@ -1,3 +1,5 @@
+[< Back to Module Notes](./README.md) | [< Back to Course Outline](../README.md)
+
 # Lab 01: System Identification
 
 ## Scenario
@@ -14,3 +16,4 @@ You are a new System Administrator. You have been given access to a server, but 
 - Kernel: `5.x.x` or similar.
 - Distro: `Ubuntu 22.04` or `RHEL 9`.
 - RAM: `8GB` (example).
+

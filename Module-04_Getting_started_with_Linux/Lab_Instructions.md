@@ -1,3 +1,5 @@
+[< Back to Module Notes](./README.md) | [< Back to Course Outline](../README.md)
+
 # Lab 04: File System Management
 
 ## Objective
@@ -15,3 +17,4 @@ Become comfortable with Creating, Moving, Copying, and Deleting files and direct
 9.  Rename `file2.txt` to `notes.txt`.
 10. Delete `file3.txt`.
 11. Return to your home directory and remove the entire `Training_Lab` directory (Be Careful!).
+

@@ -1,3 +1,5 @@
+[< Back to Course Outline](../README.md) | [Lab Instructions](./Lab_Instructions.md) | [Solutions](./Solutions/)
+
 # Module 08: Linux File Permissions and ACL
 
 ## Topics Covered
@@ -18,3 +20,4 @@
 | 6     | 110    | rw-        |
 | 5     | 101    | r-x        |
 | 4     | 100    | r--        |
+

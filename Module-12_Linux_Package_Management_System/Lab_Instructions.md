@@ -1,3 +1,5 @@
+[< Back to Module Notes](./README.md) | [< Back to Course Outline](../README.md)
+
 # Lab 12: Installing Software
 
 ## Objective
@@ -9,3 +11,4 @@ Manage software packages.
 3. Install the web browser `elinks` (if available, otherwise `lynx`).
 4. Remove the `wget` tool.
 5. Search for a package named `nmap`.
+

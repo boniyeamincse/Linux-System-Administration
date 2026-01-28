@@ -1,3 +1,5 @@
+[< Back to Module Notes](./README.md) | [< Back to Course Outline](../README.md)
+
 # Lab 16: Firewalls
 
 ## Objective
@@ -10,3 +12,4 @@ Secure the network by filtering traffic.
 4.  Add port 8080/tcp manually.
 5.  Reload the firewall.
 6.  Check the current SELinux mode.
+

@@ -1,3 +1,5 @@
+[< Back to Module Notes](./README.md) | [< Back to Course Outline](../README.md)
+
 # Lab 15: Backup and Logs
 
 ## Objective
@@ -9,3 +11,4 @@ Archive files and analyze system logs.
 3.  Compare the sizes of the .tar and .tar.gz files.
 4.  Use `rsync` to sync your home directory `Documents` folder to `/tmp/backup_docs`.
 5.  Use `journalctl` to find error messages from the last boot.
+

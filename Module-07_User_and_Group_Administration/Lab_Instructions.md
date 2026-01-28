@@ -1,3 +1,5 @@
+[< Back to Module Notes](./README.md) | [< Back to Course Outline](../README.md)
+
 # Lab 07: Managing Users and Groups
 
 ## Objective
@@ -11,3 +13,4 @@ Create users and groups, and assign users to groups.
 5.  Create another user `sarah` and set her primary group to `sales` upon creation.
 6.  Verify group memberships.
 7.  Lock `john`'s account so he cannot login.
+

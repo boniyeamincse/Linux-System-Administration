@@ -1,3 +1,5 @@
+[< Back to Course Outline](../README.md) | [Lab Instructions](./Lab_Instructions.md) | [Solutions](./Solutions/)
+
 # Module 05: Linux Text Processing Tools
 
 ## Topics Covered
@@ -13,3 +15,4 @@
   - Example: `ls -l | grep "txt"`
 - **Redirection (`>`)**: Saves output to a file (overwrites).
 - **Redirection (`>>`)**: Appends output to a file.
+

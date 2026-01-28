@@ -1,3 +1,5 @@
+[< Back to Course Outline](../README.md) | [Lab Instructions](./Lab_Instructions.md) | [Solutions](./Solutions/)
+
 # Module 12: Linux Package Management System
 
 ## Topics Covered
@@ -17,3 +19,4 @@
 - `apt update`
 - `apt install package`
 - `apt remove package`
+

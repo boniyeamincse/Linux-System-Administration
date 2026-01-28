@@ -1,3 +1,5 @@
+[< Back to Course Outline](../README.md) | [Lab Instructions](./Lab_Instructions.md) | [Solutions](./Solutions/)
+
 # Module 16: Managing Linux Security
 
 ## Topics Covered
@@ -12,3 +14,4 @@
 - `firewall-cmd --add-service=http --permanent`
 - `firewall-cmd --reload`
 - `getenforce` (Check SELinux)
+

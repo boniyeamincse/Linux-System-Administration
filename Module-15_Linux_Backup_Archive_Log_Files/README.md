@@ -1,3 +1,5 @@
+[< Back to Course Outline](../README.md) | [Lab Instructions](./Lab_Instructions.md) | [Solutions](./Solutions/)
+
 # Module 15: Linux Backup, Archive, Log Files
 
 ## Topics Covered
@@ -12,3 +14,4 @@
 - `tar -xvf archive.tar` (Extract)
 - `tar -czvf archive.tar.gz /folder` (Create with Gzip)
 - `scp file user@host:/path`
+

@@ -1,3 +1,5 @@
+[< Back to Course Outline](../README.md) | [Lab Instructions](./Lab_Instructions.md) | [Solutions](./Solutions/)
+
 # Module 10: Linux File Systems Management
 
 ## Topics Covered
@@ -13,3 +15,4 @@
 3.  Create Mount Point: `mkdir /data`
 4.  Mount: `mount /dev/sdb1 /data`
 5.  Persist: Add entry to `/etc/fstab`
+
