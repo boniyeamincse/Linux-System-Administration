@@ -7,17 +7,50 @@
 - Installation of Linux on VMware Workstation
 - Install Linux instance of AWS cloud
 - Configure BIOS/UEFI options for OS booting
-- Linux Installation Method (MBR and GPT)
 - Partitioning: /, /boot, /home, swap
 - Configure Post installation on Linux System
 
-## Installation Guide (Summary)
-1. Boot from ISO.
-2. Language Selection: English.
-3. **Partitioning**:
-   - `/boot` (1GB) - ext4/xfs
-   - `swap` (Double RAM or 4GB)
-   - `/` (Root) - Remaining space - ext4/xfs
-4. **Network**: Maintain default or set Hostname.
-5. Create User: Set username and strong password. Make sure to check "Make this user administrator" (sudo).
+---
 
+## 1. The Installation Process
+Installing Linux involves several critical stages. Whether on Ubuntu (Ubiquity/Subiquity) or RHEL (Anaconda), the steps are:
+
+1.  **Boot Media Check:** Verifies the ISO integrity.
+2.  **Language & Localization:** Sets keyboard layout.
+3.  **Software Selection:**
+    - **Server with GUI:** Good for beginners.
+    - **Minimal Install:** Best for security and performance (no GUI bloat).
+4.  **Partitioning (The most critical step).**
+
+## 2. Partition Schemes
+
+### The File System Hierarchy Standard (FHS)
+Linux does not use drive letters (C:, D:). Everything starts at Root `/`.
+
+```text
+/ (Root)
+├── boot/       (Kernels, Initramfs)
+├── etc/        (Configuration Files)
+├── home/       (User Personal Data)
+├── var/        (Variable data: Logs, Web files)
+├── usr/        (User Binaries - like Program Files)
+└── tmp/        (Temporary files)
+```
+
+### Partitioning Recommendations
+- **Automatic:** The installer erases the disk and handles layout (LVM is usually default).
+- **Manual (Standard):**
+    - Mount `/boot` -> 1GB (Ext4/XFS)
+    - Mount `swap` -> 2GB-4GB
+    - Mount `/` -> Remaining Space (Ext4/XFS)
+- **Manual (LVM - Logical Volume Manager):**
+    Allows resizing partitions later. Creates a Volume Group (VG) pool of storage.
+
+## 3. Post-Installation Configuration
+After the first reboot, immediate tasks include:
+1.  **License Agreement:** (RHEL specific).
+2.  **Network Config:** Ensure IP is assigned (`ip addr`).
+3.  **Update System:**
+    - Ubuntu: `sudo apt update && sudo apt upgrade`
+    - RHEL: `sudo dnf update`
+4.  **Hostname:** Set a unique name (`hostnamectl set-hostname server1`).
