@@ -1,0 +1,15 @@
+# Solution Overview for Lab 06 (Interactive)
+
+Since Vim is an interactive tool, this cannot be automated with a script easily.
+Here are the keystrokes you would use:
+
+1. `vim vim_practice.txt`
+2. `i`
+3. (Type content)
+4. `Esc`
+5. `:w` <Enter>
+6. Move cursor to second line (use arrows or `j`).
+7. `dd`
+8. `u`
+9. `G` (Shift+g) -> `o` (open new line below) -> Type "The End" -> `Esc`
+10. `:wq` <Enter>
